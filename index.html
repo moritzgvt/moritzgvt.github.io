@@ -11,10 +11,12 @@
     <a href="https://moritzgut.de">moritzgut.de</a>
   </span>
   <style>
+    body {
+      margin: 0;
+    }
+
     .text {
       display: inline;
-      line-height: 100vh;
-      vertical-align: middle;
       padding: 0 0 0 20px;
     }
 
@@ -24,9 +26,12 @@
       font-size: 40px;
       color: #171717;
       text-decoration: underline;
+      line-height: 100vh;
+
+      transition: color 0.2s ease;
     }
 
-    .text a:hover {
+    .text:hover a {
       color: #0f62fe;
     }
   </style>
